@@ -299,7 +299,6 @@ body {
   margin: -140px 0 0 -130px;
 }
 
-/* Media queries for responsiveness */
 @media (max-width: 768px) {
   .sec-2 {
     padding: 20px;
@@ -323,7 +322,6 @@ body {
   }
 }
 
-/* Additional styling for larger screens if needed */
 @media (min-width: 1200px) {
   .sec-2-box1 {
     padding: 40px;
@@ -340,7 +338,6 @@ body {
 }
 
 /* section 3 */
-
 #provide-section {
   min-height: 100vh;
   width: 100%;
@@ -559,20 +556,19 @@ body {
 }
 
 .companies-img img {
-  width: 100%; /* Make the images take up 100% of the container's width */
-  height: auto; /* Maintain aspect ratio */
-  max-width: 150px; /* Set a maximum width for each image */
-  margin: 10px; /* Add some margin between images */
+  width: 100%;
+  height: auto;
+  max-width: 150px;
+  margin: 10px;
 }
 
 @media screen and (max-width: 768px) {
   .companies-img img {
-    max-width: 200px; /* Adjust the maximum width for larger screens */
+    max-width: 200px;
   }
 }
 
 /* section 6 */
-
 .container {
   height: 100vh;
   width: 100%;
@@ -610,6 +606,8 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
   row-gap: 30px;
   height: 100%;
   width: 100%;
@@ -620,27 +618,29 @@ body {
   padding: 0 160px;
   font-size: 14px;
   font-weight: 400;
-  color: white;
+  color: black;
 }
 .slide .quote-icon {
   font-size: 30px;
   color: white;
-  /* color: #0c111f; */
+  cursor: pointer;
 }
 .slide .details {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 20px;
+  margin-top: -20px;
 }
 .details .name {
   font-size: 14px;
   font-weight: 600;
-  color: white;
+  color: black;
 }
 .details .job {
   font-size: 12px;
   font-weight: 400;
-  color: white;
+  color: black;
 }
 /* swiper button css */
 .nav-btn {
@@ -1039,7 +1039,7 @@ form .button-area {
   }
 
   .foot {
-    width: 100%; /* Take full width on smaller screens */
+    width: 100%;
     margin-bottom: 20px;
     height: 20vh;
     margin-top: 40px;
