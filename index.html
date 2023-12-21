@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="./swiper-bundle/swiper-bundle.min.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="main">
+      <div class="hero">
+        <nav>
+          <div class="logo">
+            <a href="/"><img src="./images/logo.png" alt="logo" /></a>
+          </div>
+          <div class="items">
+            <div id="cross">×</div>
+            <ul>
+              <li><a href="./index.html" class="active">Home</a></li>
+              <li>
+                <a href="#"
+                  >About <span><i class="fa fa-angle-down"></i></span
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  >Pages <span><i class="fa fa-angle-down"></i></span
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  >Blogs <span><i class="fa fa-angle-down"></i></span
+                ></a>
+              </li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <button class="bttn">Get Started</button>
+          </div>
+          <div class="btn">
+            <div class="search-icon"><i class="fa fa-search"></i></div>
+            <button>Get Started</button>
+          </div>
+          <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </nav>
+
+        <div class="hero-text">
+          <h4>We provide the most advance digital solution</h4>
+          <div>
+            <h1>
+              Leading Software
+              <br />
+              Development
+              <br />
+              Studio & Agency
+            </h1>
+          </div>
+          <div class="watch">
+            <i class="fa fa-play-circle-o" style="font-size: 50px"></i>
+            <p>Watch Video</p>
+          </div>
+        </div>
+
+        <div class="wave-container">
+          <svg
+            class="wave-svg"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1440 255"
+          >
+            <path
+              fill="#fff"
+              fill-opacity="5"
+              d="M0,160L48,138.7C96,117,192,75,288,80C384,85,480,139,576,181.3C672,224,768,256,864,250.7C960,245,1056,203,1152,160C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec-2">
+      <div class="sec-2-box1">
+        <h4>WHO WE ARE</h4>
+        <h1>We run all kinds of software services that vow your success</h1>
+        <p>
+          Accelerate innovation with world-class tech teams. We’ll match you to
+          an entire remote team of incredible freelance talent for all your
+          software development needs.
+        </p>
+        <img src="./images/sec-2.png" alt="Software Services" />
+      </div>
+      <div class="sec-2-box2">
+        <img src="./images/sec-2-img.jpg" class="sec2-1" alt="Image 1" />
+        <img src="./images/sec2-img-2.jpg" class="sec2-2" alt="Image 2" />
+      </div>
+    </section>
+
+    <!-- section 3 -->
+    <section id="provide-section">
+      <div class="provide-section-top">
+        <h3>WHAT WE PROVIDE</h3>
+        <h1 id="provide-section-top-h3">
+          We provide truly prominent Software Solutions.
+        </h1>
+      </div>
+
+      <div id="provide-section-card">
+        <div class="card" id="card-1">
+          <img src="./images/web-removebg-preview.png" alt="" />
+          <h1>Web Development</h1>
+          <p>
+            Accelerate innovation with world-class tech teams We’ll match you to
+            an entire remote team.
+          </p>
+        </div>
+        <div class="card" id="card-2">
+          <img src="./images/mobile-removebg-preview.png" alt="" />
+          <h1>Mobile App Development</h1>
+          <p>
+            Accelerate innovation with world-class tech teams We’ll match you to
+            an entire remote team.
+          </p>
+        </div>
+        <div class="card" id="card-1">
+          <img src="./images/idea.png" alt="" />
+          <h1>Software Innovation</h1>
+          <p>
+            Accelerate innovation with world-class tech teams We’ll match you to
+            an entire remote team.
+          </p>
+        </div>
+        <div class="card" id="card-2">
+          <img src="./images/appp.png" alt="" />
+          <h1>
+            App <br />
+            Management System
+          </h1>
+          <p>
+            Accelerate innovation with world-class tech teams We’ll match you to
+            an entire remote team.
+          </p>
+        </div>
+      </div>
+
+      <div id="provide-section-bottom">
+        <h3>Learn More About <span>Services ></span></h3>
+      </div>
+    </section>
+
+    <!-- section 4 -->
+    <section id="progress-section">
+      <div class="progress-section-box" id="progress-section-box-1">
+        <h1>We have an experienced team of production and inspection</h1>
+        <p>
+          Accelerate innovation with world-class tech teams. We’ll match you to
+          an entire remote team of incredible freelance talent for all your
+          software development needs.
+        </p>
+      </div>
+      <div class="progress-section-box" id="progress-section-box-2">
+        <div class="progress-img">
+          <img src="./10.png" alt="" />
+        </div>
+        <div>
+          <div>
+            <h2>Software Development</h2>
+            <div class="progress">
+              <div id="progress-1"></div>
+              <div><h3>90%</h3></div>
+            </div>
+          </div>
+          <div>
+            <h2>Creative Thinking</h2>
+            <div class="progress">
+              <div id="progress-2"></div>
+              <div><h3>100%</h3></div>
+            </div>
+          </div>
+
+          <div>
+            <h2>Information Technology</h2>
+            <div class="progress">
+              <div id="progress-3"></div>
+              <div><h3>80%</h3></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 5 -->
+    <section id="companies-section">
+      <div class="companies-img">
+        <img src="./images/V4.jpeg" alt="" />
+        <img src="./images/Jennar.png" alt="" />
+        <img src="./images/Microsoft.jpg" alt="" />
+        <img src="./images/nokia.png" alt="" />
+        <img src="./images/southern.jpeg" alt="" />
+      </div>
+    </section>
+
+    <!-- section 6 -->
+    <section class="container">
+      <div class="testimonial-text">
+        <h2>TESTIMONIAL</h2>
+        <h1>20k+ satisfied clients worldwide</h1>
+      </div>
+      <div class="testimonial mySwiper">
+        <div class="testi-content swiper-wrapper">
+          <div class="slide swiper-slide">
+            <img src="./images/OIP.jpeg" alt="" class="image" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+              saepe provident dolorem a quaerat quo error facere nihil deleniti
+              eligendi ipsum adipisci, fugit, architecto amet asperiores
+              doloremque deserunt eum nemo.
+            </p>
+
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details">
+              <span class="name">Marnie Lotter</span>
+              <span class="job">Web Developer</span>
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="./images/g2.jpg" alt="" class="image" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+              saepe provident dolorem a quaerat quo error facere nihil deleniti
+              eligendi ipsum adipisci, fugit, architecto amet asperiores
+              doloremque deserunt eum nemo.
+            </p>
+
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details">
+              <span class="name">Marnie Lotter</span>
+              <span class="job">Web Developer</span>
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="./images/g1.jpeg" alt="" class="image" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+              saepe provident dolorem a quaerat quo error facere nihil deleniti
+              eligendi ipsum adipisci, fugit, architecto amet asperiores
+              doloremque deserunt eum nemo.
+            </p>
+
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details">
+              <span class="name">Marnie Lotter</span>
+              <span class="job">Web Developer</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next nav-btn"></div>
+        <div class="swiper-button-prev nav-btn"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="contact-left">
+        <h1>To make requests for further information, contact us</h1>
+
+        <div class="num det">
+          <div class="icon">
+            <i class="fa fa-phone" style="font-size: 36px"></i>
+          </div>
+          <div class="number">
+            <h3>Contact Number</h3>
+            <p>+00(1) 123 456 7890</p>
+          </div>
+        </div>
+        <div class="mail det">
+          <div class="icon">
+            <i class="fa fa-envelope" style="font-size: 36px"></i>
+          </div>
+          <div class="mail">
+            <h3>Our Mail</h3>
+            <p>info@techrepublicans.com</p>
+          </div>
+        </div>
+        <div class="location det">
+          <div class="icon">
+            <i class="fa fa-map-marker" style="font-size: 36px"></i>
+          </div>
+          <div class="location">
+            <h3>Our Location</h3>
+            <p>
+              New ipsum dolor amet, eiusmod adipisicing 147 New Yors, NY
+              Adipisicing 123
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="contact-right">
+        <div class="wrapper">
+          <header>
+            <h4>LEAVE US MASSAGE</h4>
+            <h1>How May We Help You !</h1>
+          </header>
+          <form action="#">
+            <div class="dbl-field">
+              <div class="field">
+                <input type="text" name="name" placeholder="Enter your name" />
+              </div>
+              <div class="field">
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="Enter your email"
+                />
+              </div>
+            </div>
+            <div class="dbl-field">
+              <div class="field">
+                <input
+                  type="text"
+                  name="phone"
+                  placeholder="Enter your phone"
+                />
+              </div>
+              <div class="field">
+                <input
+                  type="text"
+                  name="website"
+                  placeholder="Enter your website"
+                />
+              </div>
+            </div>
+            <div class="message">
+              <textarea
+                placeholder="Write your message"
+                name="message"
+              ></textarea>
+            </div>
+            <div class="button-area">
+              <button type="submit">Send Message</button>
+              <span></span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="news-letter">
+      <div class="news-1">
+        <input type="email" />
+        <button>Subscribe</button>
+      </div>
+      <div class="news-2">
+        <img src="./images/news.png" alt="" />
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-box-2">
+        <div class="foot-box-2-1  foot">
+          <div class="footer-box-1"><img src="./images/foot-logo.png" alt="" /></div>
+          <p>
+            Accelerate innovation with world class tech teams We ll match you to
+            an entire remote team . Accelerate innovation with world class tech
+            teams We ll match you to an entire remote team .
+          </p>
+          <div class="footer-icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+          </div>
+        </div>
+        <div class="foot-box-2-2 foot">
+          <h2>Contact Number</h2>
+          <ul>
+            <li>Terms & Condition</li>
+            <li>About</li>
+            <li>Payment Gateway</li>
+            <li>Policy</li>
+          </ul>
+        </div>
+        <div class="foot-box-2-3 foot">
+          <h2>Our Services</h2>
+          <ul>
+            <li>Web Design</li>
+            <li>Web Development</li>
+            <li>IT Management</li>
+            <li>Networking</li>
+          </ul>
+        </div>
+        <div class="foot-box-2-4 foot">
+          <h2>Contact Number</h2>
+          <div>
+            <div class="foot-cont-1">
+              
+                <i class="fa fa-phone"></i>
+                <div class="foot-d">
+                  <h4>Contact Number</h4>
+                  <p>+00(1) 123 456 7890</p>
+                </div>
+            
+            </div>
+            <div class="foot-cont-1">
+             
+                <i class="fa fa-envelope"></i>
+                <div class="foot-d">
+                  <h4>Our Mail</h4>
+                  <p>info@techrepublicans.com</p>
+                </div>
+              
+            </div>
+            <div class="foot-cont-1">
+             
+                <i class="fa fa-map-marker"></i>
+                <div class="foot-d">
+                  <h4>Our Location</h4>
+                  <p>New ipsum dolor amet, 
+                    eiusmod adipisicing 147 New 
+                    Yors, NY Adipisicing 123</p>
+                </div>
+            
+          </div>
+        </div>
+      </div>
+<div class="copyright">
+  <hr />
+  <h6>© Copyrights 2022 techwix All rights reserved</h6>
+</div>
+     
+    </footer>
+
+    <script src="./swiper-bundle/swiper-bundle.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
