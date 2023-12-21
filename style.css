@@ -948,11 +948,12 @@ form .button-area {
   }
   .news-1 {
     height: 20vh;
+    width: 100%;
   }
   .news-1 input {
     height: 30px;
     padding: 12px;
-    width: 90%;
+    width: 100%;
   }
   .news-1 button {
     padding: 10px;
