@@ -117,6 +117,7 @@ nav {
 .watch {
   display: flex;
   align-items: center;
+  margin-left: -100px;
 }
 .watch p {
   margin-left: 20px;
@@ -500,7 +501,7 @@ body {
 }
 
 #progress-1 {
-  width: 78%;
+  width: 70%;
   height: 10px;
   background-color: blue;
 }
@@ -512,7 +513,7 @@ body {
 }
 
 #progress-3 {
-  width: 67%;
+  width: 55%;
   height: 10px;
   background-color: blue;
 }
