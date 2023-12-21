@@ -16,6 +16,9 @@ nav {
   background: transparent;
   display: flex;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: rgba(243, 243, 243, 0.644);
   align-items: center;
   padding: 0 60px;
 }
