@@ -117,7 +117,7 @@ nav {
 .watch {
   display: flex;
   align-items: center;
-  margin-left: -100px;
+  margin-left: 1px;
 }
 .watch p {
   margin-left: 20px;
@@ -232,6 +232,7 @@ nav {
   }
   .hero-text .watch {
     margin-top: 40px;
+    margin-left: -120px;
   }
 }
 
